@@ -1,0 +1,5 @@
+maksTuple=(87, 64, 33, 95, 76)
+highest= max(maksTuple)
+lowest=min(maksTuple)
+print("Highest:", highest)
+print("Lowest:", lowest)
