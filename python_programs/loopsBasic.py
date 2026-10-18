@@ -1,4 +1,4 @@
-                        
+ # Testing Git commit and push from VS Code                       
 
 num = 1
 
@@ -8,5 +8,4 @@ while num <=100:
     print(num)
 print("End of the while loop")
 
-    
     
