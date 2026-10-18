@@ -1,4 +1,4 @@
-# This program illustrates an example of Binary Search Tree using Python
+                                                                        
 
 class Node(object):
     def __init__(self, data):
@@ -9,7 +9,7 @@ class Node(object):
     def insert(self, data):
         ''' For inserting the data in the Tree '''
         if self.data == data:
-            return False        # As BST cannot contain duplicate data
+            return False                                              
 
         elif data < self.data:
             ''' Data less than the root data is placed to the left of the root '''
@@ -74,7 +74,7 @@ class Tree(object):
     def __init__(self, initial_data = []):
         self.root = None
 
-        # If provided, add initial data
+                                       
         for data in initial_data:
             self.insert(data)
 

@@ -1,7 +1,7 @@
-# This program illustrates all the OOP concepts learned uptil now
+                                                                 
 
 class BankAccount(object):
-    defaultAccNumber = 1        # Class Attribute
+    defaultAccNumber = 1                         
 
     def __init__(self, name, balance = 0):
         self.name = name

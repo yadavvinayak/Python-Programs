@@ -1,4 +1,4 @@
-#This program checks for the palindrome
+                                       
 
 def palindrome(string):
     '''This function checks the string for palindrome'''

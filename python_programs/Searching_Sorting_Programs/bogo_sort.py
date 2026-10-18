@@ -1,7 +1,7 @@
 import random
 
 def bogo_sort(values, max_shuffles=100_000):
-    # Educational only: factorial-time algorithm, not for real workloads.
+                                                                         
     result = list(values)
     for _ in range(max_shuffles):
         if result == sorted(result):

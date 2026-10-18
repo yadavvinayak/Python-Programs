@@ -1,4 +1,4 @@
-# This program illustrates a simple example for encrypting/ decrypting your text
+                                                                                
 
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 LETTERS = LETTERS.lower()
@@ -44,15 +44,15 @@ def main():
 if __name__ == '__main__':
     main()
 
-    # OUTPUT:
-    # vinayak@vinayak-Inspiron-3542:~/Documents/GITs/Python-Programs/Programs$ python P40_CipherText.py
-    # Enter your message: VinayakYadav
-    # Enter you key [1 - 26]: 2
-    # Encrypt or Decrypt? [E/D]: e
-    # qomct
-    #
-    # vinayak@vinayak-Inspiron-3542:~/Documents/GITs/Python-Programs/Programs$ python P40_CipherText.py
-    # Enter your message: qomct
-    # Enter you key [1 - 26]: 2
-    # Encrypt or Decrypt? [E/D]: d
-    # VinayakYadav
+             
+                                                                                                       
+                                      
+                               
+                                  
+           
+     
+                                                                                                       
+                               
+                               
+                                  
+                  

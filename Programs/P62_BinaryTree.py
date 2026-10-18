@@ -1,5 +1,5 @@
-# A data structure in which a record is linked to two successor records, usually referred to as
-# the left branch when greater and the right when less than the previous record.
+                                                                                               
+                                                                                
 
 class BinaryTree(object):
 
@@ -74,8 +74,8 @@ def testTree():
 if __name__ == '__main__':
     testTree()
 
-    # OUTPUT
-    # 2
-    # 1
-    # 4
-    # 3
+            
+       
+       
+       
+       

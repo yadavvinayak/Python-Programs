@@ -1,4 +1,4 @@
-# This is just an example of how we can use Python for some gaming problems.
+                                                                            
 
 import random
 from collections import Counter
@@ -31,7 +31,7 @@ if __name__ == '__main__':
                 print('Enter only a letter!')
                 continue
 
-            # Validation of the guess
+                                     
             if not guess.isalpha():
                 print('Enter only a LETTER')
                 continue
@@ -43,11 +43,11 @@ if __name__ == '__main__':
                 continue
 
 
-            # If letter is guessed correcly
+                                           
             if guess in word:
                 letterGuessed += guess
 
-            # Print the word
+                            
             for char in word:
                 if char in letterGuessed:
                     print(char, end = ' ')
@@ -55,13 +55,13 @@ if __name__ == '__main__':
                 else:
                     print('_', end = ' ')
 
-            # If user has guessed all the letters
+                                                 
             if (Counter(letterGuessed) == Counter(word)):
                 print()
                 print('Congratulations, You won!')
                 break
 
-        # If user has used all of his chances
+                                             
         if chances == 0:
             print()
             print('You lost! Try again..')
@@ -72,4 +72,4 @@ if __name__ == '__main__':
         print('Bye! Try again.')
         exit()
 
-        # print(letterGuessed)
+                              

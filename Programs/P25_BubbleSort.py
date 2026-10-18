@@ -1,15 +1,15 @@
-#This program shows an example of bubble sort using Python
+                                                          
 
-#   Bubblesort is an elementary sorting algorithm. The idea is to
-#   imagine bubbling the smallest elements of a (vertical) array to the
-#   top; then bubble the next smallest; then so on until the entire
-#   array is sorted. Bubble sort is worse than both insertion sort and
-#   selection sort. It moves elements as many times as insertion sort
-#   (bad) and it takes as long as selection sort (bad). On the positive
-#   side, bubble sort is easy to understand. Also there are highly
-#   improved variants of bubble sort.
+                                                                 
+                                                                       
+                                                                   
+                                                                      
+                                                                     
+                                                                       
+                                                                  
+                                     
 
-#   Best O(n^2); Average O(n^2); Worst O(n^2)
+                                             
 
 def bubbleSort(List):
     for i in range(len(List)):

@@ -1,5 +1,5 @@
-print("Hello" + "Samosa")   #concatination
-print("Yum! "*3)            #Repeatation
-print("a" in "banana")      #Membership
+print("Hello" + "Samosa")                 
+print("Yum! "*3)                        
+print("a" in "banana")                 
 print("Y" not in "mango")   
-print(len("VinayakY"))      #len() function
+print(len("VinayakY"))                     

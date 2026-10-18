@@ -1,4 +1,4 @@
-#This program calculates the factorial of a given number
+                                                        
 
 def factorial(number):
     '''This function calculates the factorial of a number'''

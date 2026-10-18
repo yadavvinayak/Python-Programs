@@ -1,12 +1,12 @@
-#This program gives an example of Merge sort
+                                            
 
-#   Merge sort is a divide and conquer algorithm. In the divide and
-#   conquer paradigm, a problem is broken into pieces where each piece
-#   still retains all the properties of the larger problem -- except
-#   its size. To solve the original problem, each piece is solved
-#   individually; then the pieces are merged back together.
+                                                                   
+                                                                      
+                                                                    
+                                                                 
+                                                           
 
-#  Best = Average = Worst = O(nlog(n))
+                                      
 
 def merge(a,b):
     """ Function to merge two arrays """
@@ -24,7 +24,7 @@ def merge(a,b):
         c += a
     return c
 
-# Code for merge sort
+                     
 
 def mergeSort(x):
     """ Function to sort an array using merge sort algorithm """

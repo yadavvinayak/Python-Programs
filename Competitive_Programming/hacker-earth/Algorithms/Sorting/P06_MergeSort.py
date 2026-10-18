@@ -1,22 +1,22 @@
-# Given an array A on size N, you need to find the number of ordered pairs (i,j) such that i<j and A[i]>A[j].
-#
-# Input:
-# First line contains one integer, N, size of array.
-# Second line contains N space separated integers denoting the elements of the array A.
-#
-# Output:
-# Print the number of ordered pairs (i,j) such that i<j and A[i]>A[j].
-#
-# Constraints:
-# 1≤N≤106
-# 1≤A[i]≤106
-#
-# SAMPLE INPUT
-# 5
-# 1 4 3 2 5
-#
-# SAMPLE OUTPUT
-# 3
+                                                                                                             
+ 
+        
+                                                    
+                                                                                       
+ 
+         
+                                                                      
+ 
+              
+         
+            
+ 
+              
+   
+           
+ 
+               
+   
 
 n = int(input())
 array = [int(i) for i in input().split()]
@@ -40,7 +40,7 @@ def merge(left, right):
             mergeArray.append(right[0])
             right.remove(right[0])
             global value
-            value += 1                  # Note this step
+            value += 1                                  
     if len(left) == 0:
         mergeArray += right
     else:

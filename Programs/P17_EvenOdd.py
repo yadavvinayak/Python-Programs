@@ -1,4 +1,4 @@
-#This program takes input from user and sorts the numbers in two arrays, one of even and other of odd
+                                                                                                     
 
 def evenOdd(numbers):
     '''This function divides the numbers in two arrays one of even and other of odd'''

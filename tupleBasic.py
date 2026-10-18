@@ -1,10 +1,10 @@
-#yuple basic
+            
 
 myTuple = (78, 90, 75)
 print(len(myTuple))
 studentTuple= ("Anchal", "Divya", "Ishan")
 
-#tuples are immutable, not changeable
+                                     
 
 print(studentTuple[1])
 

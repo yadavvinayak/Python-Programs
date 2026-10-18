@@ -1,5 +1,5 @@
 def bitonic_sort(values):
-    # Simple recursive bitonic sort; input length must be a power of two.
+                                                                         
     result = list(values)
     n = len(result)
     if n == 0 or n & (n - 1):

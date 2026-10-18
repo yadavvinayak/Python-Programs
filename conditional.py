@@ -1,4 +1,4 @@
-#conditional statements
+                       
 marks= 85
 if (marks>=90):
     print("Your grade is A")

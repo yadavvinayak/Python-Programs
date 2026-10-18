@@ -1,8 +1,8 @@
 
-#This program illsutrates an example of N-ary search
+                                                    
 
-ARRAY_SIZE = 10000000       # Size of our array
-DIVISIONS = 10              # N-ary count
+ARRAY_SIZE = 10000000                          
+DIVISIONS = 10                           
 
 def Main():
     myArray = []
@@ -56,25 +56,25 @@ if __name__ == '__main__':
     Main()
 
 
-    # OUTPUT:
-    # vinayak@vinayak-Inspiron-3542:~/Documents/GITs/Python-Programs/Programs$ python P35_NarySearch.py
-    # Enter the key to search:433
-    # Searching from 0 to 10000000
-    # Array Size is:  10000000
-    #  
-    # Searching from 0 to 999999
-    # Array Size is:  999999
-    #  
-    # Searching from 0 to 99998
-    # Array Size is:  99998
-    #  
-    # Searching from 0 to 9998
-    # Array Size is:  9998
-    #  
-    # Searching from 0 to 998
-    # Array Size is:  998
-    #  
-    # Searching from 397 to 495
-    # Array Size is:  98
-    #  
-    # Element Found!
+             
+                                                                                                       
+                                 
+                                  
+                              
+       
+                                
+                            
+       
+                               
+                           
+       
+                              
+                          
+       
+                             
+                         
+       
+                               
+                        
+       
+                    

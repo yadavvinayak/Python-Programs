@@ -1,4 +1,4 @@
-# This program illustrates a simple port scanner using Python that scans for open ports
+                                                                                       
 
 import socket,sys
 
@@ -7,7 +7,7 @@ def connect(host):
     try:
         for port in range(1, 1024):
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            connection = s.connect_ex((host, port))    #NOTE: connect() needs a tuple!
+            connection = s.connect_ex((host, port))                                   
             if (connection == 0):
                 print('Port {} is open'.format(port))
             s.close()

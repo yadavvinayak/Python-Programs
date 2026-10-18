@@ -1,4 +1,4 @@
-# unordered (indexing not works), mutable-changable, and unique keys
+                                                                    
 student= {"name":"Vinayak", "age":31,"city":"Pune", "Roll no.":31}
 print(type(student))
 print(student)

@@ -1,5 +1,5 @@
-#This program gives a demo of how can you pass arguments while running python programs
-#Run the program as: python P15_Arguments.py VinayakYadav
+                                                                                      
+                                                         
 
 import sys
 

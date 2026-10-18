@@ -1,19 +1,19 @@
-# This program upon execution will take your command to play music randomly.
-import pyttsx3 #pip install pyttsx3
-import speech_recognition as sr #pip install speech recognition
+                                                                            
+import pyttsx3                     
+import speech_recognition as sr                                
 import os
 import datetime
 import random
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
-engine.setProperty('voice',voices[0].id) #voices[1].id for female assistant
+engine.setProperty('voice',voices[0].id)                                   
 
-#speak function to speak the string passed to it.
+                                                 
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
-#function to listen your command and process them
+                                                 
 def takedata():
     r= sr.Recognizer()
     with sr.Microphone() as source:
@@ -21,7 +21,7 @@ def takedata():
         audio = r.listen(source)
     try:
         print("Recognizing...")
-        query = r.recognize_google(audio,language='en-in')  #language set is Indian English
+        query = r.recognize_google(audio,language='en-in')                                 
         print("The user said ",query)
     except Exception :
         print("Sorry i was unable to catch that. Please try speaking that again.")
@@ -42,7 +42,7 @@ def wishme():
 wishme()
 query = takedata() 
 if 'play music' or 'play songs' in query:
-    music_dir = "F:\\Songs" #put the location of the folder where you store your songs
+    music_dir = "F:\\Songs"                                                           
     songs = os.listdir(music_dir)
     l = len(songs)
     num = random.randrange(0,l,1)

@@ -1,4 +1,4 @@
-#This program prints various patterns
+                                     
 
 def pattern1(level):
     '''This function prints the following pattern:
@@ -64,12 +64,12 @@ def pattern5(level):
     *****
 
     '''
-    # first loop for number of lines
+                                    
     for i in range(level + 1):
-        #second loop for spaces
+                               
         for j in range(level - i):
             print (" ",end='')
-        # this loop is for printing stars
+                                         
         for k in range(2 * i - 1):
             print("*", end='')
         print()

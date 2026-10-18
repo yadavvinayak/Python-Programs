@@ -1,4 +1,4 @@
-#This program calculates the fibonacci series till the n-th term
+                                                                
 
 def fibonacci(number):
     '''This function calculates the fibonacci series till the n-th term'''

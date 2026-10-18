@@ -1,4 +1,4 @@
-#list in python
+               
 
 food= ["chole bhature","choco wafle","gulab jamun","apple","mango","curd"]
 print(len(food))

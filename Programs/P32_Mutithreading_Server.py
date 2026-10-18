@@ -1,6 +1,6 @@
-#This program illustrates the client-server model using multithreading.
-#Multiole clients can connect to server and each time a client connects a corresponding
-#thread is created for handling client requests
+                                                                       
+                                                                                       
+                                               
 
 import socket
 import os
@@ -18,7 +18,7 @@ except socket.error as e:
 print('Waitiing for a Connection..')
 ServerSocket.listen(5)
 
-#Function for handling requests by a thread
+                                           
 def threaded_client(connection):
     connection.send(str.encode('Welcome to the Server\n'))
     while True:

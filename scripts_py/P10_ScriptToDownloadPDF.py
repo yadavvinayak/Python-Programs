@@ -1,5 +1,5 @@
 
-# This script is used to download any tutorial pdf from tutorials point
+                                                                       
 
 import urllib.request
 
@@ -8,7 +8,7 @@ def download(tutorialName):
     downloadLocation = '/home/vinayak/Downloads/'
 
     pdf = urllib.request.urlopen(url)
-    saveFile = open(downloadLocation + tutorialName +  '.pdf', 'wb')  # because pdf is a binary file
+    saveFile = open(downloadLocation + tutorialName +  '.pdf', 'wb')                                
     saveFile.write(pdf.read())
     saveFile.close()
     print('Downloaded!')

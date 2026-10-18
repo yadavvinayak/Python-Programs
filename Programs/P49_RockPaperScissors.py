@@ -1,13 +1,13 @@
-# This program illustrates a game of Rock Paper Scissors.
-# RULES:
-# Rock beats scissors
-# Scissors beats paper
-# Paper beats rock
+                                                         
+        
+                     
+                      
+                  
 
 import random, time
 
 def rockPaperScissors():
-    # R => Rock, P => Paper, S => Scissors
+                                          
     computerOptions = ['R', 'P', 'S']
     computer = computerOptions[random.randint(0, 2)]
 

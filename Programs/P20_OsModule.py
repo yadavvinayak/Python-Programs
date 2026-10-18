@@ -1,9 +1,9 @@
-#This program illustrates the example for os module in short
+                                                            
 
 import os
 import time
 
-print(os.getcwd()) #Prints the current working directory
+print(os.getcwd())                                      
 
 os.mkdir('newDir1')
 for i in range(1,10):

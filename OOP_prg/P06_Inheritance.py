@@ -1,12 +1,12 @@
-#This program illustrates the concept of inheritance
-#Python looks up for method in following order: Instance attributes, class attributes and the
-#from the base class
+                                                    
+                                                                                             
+                    
 
 class Data(object):
     def getData(self):
         print('In data!')
 
-class Time(Data):           #Inheriting from Data class
+class Time(Data):                                      
     def getTime(self):
         print('In Time!')
 
@@ -16,4 +16,4 @@ if __name__ == '__main__':
 
     data.getData()
     time.getTime()
-    time.getData()          #Inherited Data method
+    time.getData()                                

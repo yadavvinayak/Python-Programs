@@ -1,8 +1,8 @@
-#This program checks for the character frequency in the given string
+                                                                    
 
 def charFrequency(userInput):
     '''This fuction helps to count the char frequency in the given string '''
-    userInput = userInput.lower() #covert to lowercase
+    userInput = userInput.lower()                     
     dict = {}
     for char in userInput:
         keys = dict.keys()

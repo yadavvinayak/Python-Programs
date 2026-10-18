@@ -1,5 +1,5 @@
 def execute_python(source, namespace=None):
-    # Only use with trusted source code: exec can run arbitrary commands.
+                                                                         
     namespace = {} if namespace is None else namespace
     exec(source, namespace)
     return namespace

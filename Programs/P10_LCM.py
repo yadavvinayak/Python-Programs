@@ -1,4 +1,4 @@
-#This program calculates the LCM of the two numbers entered by the user
+                                                                       
 
 def LCM(number1, number2):
     '''This function calculates LCM of two numbers inputed by the user'''

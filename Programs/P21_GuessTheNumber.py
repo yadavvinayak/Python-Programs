@@ -1,4 +1,4 @@
-#This program guesses the randomnly generated number
+                                                    
 
 
 import random

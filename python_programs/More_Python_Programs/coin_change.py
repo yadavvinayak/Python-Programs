@@ -1,5 +1,5 @@
 def minimum_coins(coins, amount):
-    # Dynamic programming; returns minimum count or None if impossible.
+                                                                       
     if amount < 0 or any(coin <= 0 for coin in coins):
         raise ValueError("amount must be non-negative and coins positive")
     dp = [0] + [float("inf")] * amount

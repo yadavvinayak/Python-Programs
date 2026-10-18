@@ -1,6 +1,6 @@
 
-# In this small mini project we will be creating a simple address book application that will store, search and
-# delete records
+                                                                                                              
+                
 
 import pickle, os
 
@@ -19,7 +19,7 @@ class AddressBook(object):
     def __repr__(self):
         return '[Name: {0} | Address: {1} | Email: {2} | Phone: {3}]'.format(self.name, self.address, self.email, self.phone)
 
-    # Adding details provided by the user in our Address Book
+                                                             
     def addContacts(self):
         try:
             if os.path.exists(self.filename) and os.path.getsize(self.filename) > 0:
@@ -41,7 +41,7 @@ class AddressBook(object):
         finally:
             myAddressBook.close()
 
-    # Getting the details from the user to adding the Address Book
+                                                                  
     def getDetailsFromUser(self):
         try:
             self.contacts['Name'] = str(input('Enter Contact\'s Full Name: '))
@@ -52,7 +52,7 @@ class AddressBook(object):
         except KeyboardInterrupt as error:
             raise error
 
-    # To display ALL the contact in our Address Book
+                                                    
     def displayContacts(self):
         if os.path.exists(self.filename) and os.path.getsize(self.filename) > 0:
             myAddressBook = open(self.filename, 'rb')
@@ -65,7 +65,7 @@ class AddressBook(object):
         else:
             print('No Record in database.')
 
-    # To search for a specific contact in our Address Book
+                                                          
     def searchContacts(self):
         if os.path.exists(self.filename) and os.path.getsize(self.filename) > 0:
             myAddressBook = open(self.filename, 'rb')
@@ -85,7 +85,7 @@ class AddressBook(object):
         else:
             print('No Record in database.')
 
-    # For modifying contacts
+                            
     def modifyContacts(self):
         if os.path.exists(self.filename) and os.path.getsize(self.filename) > 0:
             myAddressBook = open(self.filename, 'rb')
@@ -93,7 +93,7 @@ class AddressBook(object):
             myAddressBook.close()
             try:
                 contactToModify = input('Enter the name of the contact to modify (Only enter full name): ')
-                # Search for the record to update
+                                                 
                 for contact in data.values():
                     if contactToModify == contact['Name']:
                         contact = data[contactToModify]

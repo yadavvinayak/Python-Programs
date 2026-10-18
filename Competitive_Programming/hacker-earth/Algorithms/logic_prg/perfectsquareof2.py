@@ -1,7 +1,7 @@
-# Efficient Python program to check entered number is a perfect square of 2 or not
-# Example
-# 8
-# Its a perfect square of 2
+                                                                                  
+         
+   
+                           
 
 
 

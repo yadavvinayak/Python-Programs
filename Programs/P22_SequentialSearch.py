@@ -1,4 +1,4 @@
-#This program is an example for sequential search
+                                                 
 
 def sequentialSearch(target, List):
     '''This function returns the position of the target if found else returns -1'''

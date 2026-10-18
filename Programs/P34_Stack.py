@@ -1,6 +1,6 @@
 
-#This program illustrates an example of Stack implementation
-#Stack Operations: push(), pop(), isEmpty(), peek(), stackSize()
+                                                            
+                                                                
 
 class Stack(object):
     def __init__(self, size):
@@ -48,10 +48,10 @@ if __name__ == '__main__':
     myStack = Stack(10)
     for i in range(0, 10):
         myStack.push(i)
-    print(myStack.isEmpty())        # False
-    print(myStack.isFull())         # True
-    print(myStack)                  # 0 1 2 3 4 5 6 7 8 9
-    print(myStack.stackSize())      # 10
-    print(myStack.pop())            # 9
-    print(myStack)                  # 0 1 2 3 4 5 6 7 8
-    print(myStack.peek())           # 8
+    print(myStack.isEmpty())               
+    print(myStack.isFull())               
+    print(myStack)                                       
+    print(myStack.stackSize())          
+    print(myStack.pop())               
+    print(myStack)                                     
+    print(myStack.peek())              

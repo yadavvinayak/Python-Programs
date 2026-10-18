@@ -1,4 +1,4 @@
-# This example illustrates an example for multiprocessing and synchronization using pipes
+                                                                                         
 
 from multiprocessing import Process, Pipe
 
@@ -13,12 +13,12 @@ def childData(child):
     child.close()
 
 if __name__ == '__main__':
-    parent, child = Pipe()              # Create Pipe
-    process1 = Process(target = parentData, args = (parent, ))      # Create a process for handling parent data
-    process2 = Process(target = childData, args = (child, ))        # Create a process for handling child data
-    process1.start()                    # Start the  parent process
-    process2.start()                    # Start the child process
-    print(parent.recv())                # Display data received from child (BYE)
-    print(child.recv())                 # Display data received from parent (HELLO)
-    process1.join()                     # Wait till the process completes its execution
+    parent, child = Pipe()                           
+    process1 = Process(target = parentData, args = (parent, ))                                                 
+    process2 = Process(target = childData, args = (child, ))                                                  
+    process1.start()                                               
+    process2.start()                                             
+    print(parent.recv())                                                        
+    print(child.recv())                                                            
+    process1.join()                                                                    
     process2.join()

@@ -1,5 +1,5 @@
-#This program illustrates an example of singly linked list
-#Linked lists do NOT support random access hence only sequential search can be carried out
+                                                          
+                                                                                          
 
 class Node(object):
     def __init__(self, data, Next = None):
@@ -78,7 +78,7 @@ class LinkedList(object):
 if __name__ == '__main__':
     myList = LinkedList()
 
-    print(myList.head)                  # None
+    print(myList.head)                        
 
     myList.add(12)
     myList.add(2)
@@ -86,10 +86,10 @@ if __name__ == '__main__':
     myList.add(32)
     myList.add(42)
 
-    print(myList.size())                # 5
+    print(myList.size())                   
 
-    print(myList.search(93))            # False
-    print(myList.search(12))            # True
+    print(myList.search(93))                   
+    print(myList.search(12))                  
     print(myList.getAllData())
     myList.remove(12)
     print(myList.getAllData())

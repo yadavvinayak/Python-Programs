@@ -1,4 +1,4 @@
-#This program converts the given binary number to its decimal equivalent
+                                                                        
 
 def binaryToDecimal(binary):
     '''This function calculates the decimal equivalent to given binary number'''

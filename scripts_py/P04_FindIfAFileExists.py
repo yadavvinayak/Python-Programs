@@ -1,9 +1,9 @@
-# This script illustrates how to find if a file exists on the system with the specified name
+                                                                                            
 
 import os
 
-# Path IN which we have to search file
-PATH = '/home/vinayak/Documents/GITs/Python-Programs/Scripts'   # Give your path here
+                                      
+PATH = '/home/vinayak/Documents/GITs/Python-Programs/Scripts'                        
 
 def searchFile(fileName):
     ''' This function searches for the specified file name in the given PATH '''
@@ -11,8 +11,8 @@ def searchFile(fileName):
         print('Looking in:',root)
         for Files in files:
             try:
-                found = Files.find(fileName)        # Returns -1 if NOT found else returns index
-                # print(found)
+                found = Files.find(fileName)                                                    
+                              
                 if found != -1:
                     print(fileName, 'Found')
                     break
@@ -22,8 +22,8 @@ def searchFile(fileName):
 if __name__ == '__main__':
     searchFile('6-Folder.txt')
 
-    # OUTPUT:
-    # vinayak@vinayak-Inspiron-3542:~/Documents/GITs/Python-Programs/Scripts$ python P04_FindIfAFileExists.py
-    # Looking in: /home/vinayak/Documents/GITs/Python-Programs/Scripts
-    # Looking in: /home/vinayak/Documents/GITs/Python-Programs/Scripts/Tests
-    # 6-Folder.txt Found
+             
+                                                                                                             
+                                                                      
+                                                                            
+                        

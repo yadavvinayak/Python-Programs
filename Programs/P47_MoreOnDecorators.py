@@ -1,12 +1,12 @@
-# In this example, we will be seeing some more concepts of decorators such as
-# property decorator, getters and setters methods.
+                                                                             
+                                                  
 
 class BankAccount(object):
     def __init__(self, firstName, lastName):
         self.firstName = firstName
         self.lastName = lastName
 
-    @property                   # property decorator
+    @property                                       
     def fullName(self):
         return self.firstName + ' ' + self.lastName
 
@@ -18,9 +18,9 @@ class BankAccount(object):
 
 if __name__ == '__main__':
     acc = BankAccount('VinayakYadav', 'Yadav')
-    print(acc.fullName)              # Notice that we can access the method for our class BankAccount without
-                                     # parenthesis! This is beacuse of property decorator
+    print(acc.fullName)                                                                                      
+                                                                                         
 
-    # acc.fullName = 'VinayakYadav'    #This throws an error! Hence setter decorator should be used.
+                                                                                                    
     acc.fullName = 'Jagdish Yadav'
     print(acc.fullName)

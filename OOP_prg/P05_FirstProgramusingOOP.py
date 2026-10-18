@@ -1,4 +1,4 @@
-#In this assignment we would see the use of OOP
+                                               
 
 class MaxSizeList(object):
     def __init__(self, value):

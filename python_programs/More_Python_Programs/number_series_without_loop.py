@@ -1,5 +1,5 @@
 def series(n):
-    # Recursive example; output size is still O(n).
+                                                   
     if n <= 0:
         return []
     return series(n - 1) + [n]

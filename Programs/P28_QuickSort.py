@@ -1,20 +1,20 @@
-#This program illustrates an example of quick sort
+                                                  
 
-#  Quicksort works by selecting an element called a pivot and splitting
-#  the array around that pivot such that all the elements in, say, the
-#  left sub-array are less than pivot and all the elements in the right
-#  sub-array are greater than pivot. The splitting continues until the
-#  array can no longer be broken into pieces. That's it. Quicksort is
-#  done.
+                                                                       
+                                                                      
+                                                                       
+                                                                      
+                                                                     
+        
 
-#  Best = Average = O(nlog(n)); Worst = O(n^2
+                                             
 import time
 
 def quickSort(myList, start, end):
     if start < end:
-        # partition the list
+                            
         pivot = partition(myList, start, end)
-        # sort both halves
+                          
         quickSort(myList, start, pivot-1)
         quickSort(myList, pivot+1, end)
     return myList
@@ -32,17 +32,17 @@ def partition(myList, start, end):
         if right < left:
             done= True
         else:
-            # swap places
+                         
             temp=myList[left]
             myList[left]=myList[right]
             myList[right]=temp
-    # swap start with myList[right]
+                                   
     temp=myList[start]
     myList[start]=myList[right]
     myList[right]=temp
     return right
 
-# A more efficient solution
+                           
 def quicksortBetter(arr):
     if len(arr) <= 1:
         return arr

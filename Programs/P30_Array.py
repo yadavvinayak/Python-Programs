@@ -1,4 +1,4 @@
-#This example illustrates how an array can be implemened using Python
+                                                                     
 
 class Array(object):
     def __init__(self, size, defaultValue = None):
@@ -8,13 +8,13 @@ class Array(object):
             pass preinitialized list to set the values of the array elements
         '''
         self.size = size
-        # If only array size is initialized then, initialize all the elements as None type
+                                                                                          
         if(defaultValue == None):
             self.items = list()
             for i in range(size):
                 self.items.append(defaultValue)
         else:
-            # If user has given the default values for the array
+                                                                
             self.items = list()
 
             if(len(defaultValue) == size or len(defaultValue) < size):
@@ -94,13 +94,13 @@ class Array(object):
 
 if __name__ == '__main__':
     myArray = Array(5, [1])
-    print(myArray.items, myArray.myLen())       # [1, None, None, None, None] 1
+    print(myArray.items, myArray.myLen())                                      
     myArray.insertFirst(3)
-    print(myArray.items, myArray.myLen())       # [3, 1, None, None, None] 2
+    print(myArray.items, myArray.myLen())                                   
     myArray.insertAfterIndex(1,4)
-    print(myArray.items, myArray.myLen())       # [3, 1, 4, None, None] 3
+    print(myArray.items, myArray.myLen())                                
     myArray.insertBeforeIndex(3,5)
-    print(myArray.items, myArray.myLen())       # [3, 1, 5, 4, None] 4
+    print(myArray.items, myArray.myLen())                             
     myArray.delete(5)
-    print(myArray.items, myArray.myLen())       # [3, 1, None, 4, None] 3
-    myArray.search(4)                           # Element 4 found at position 3
+    print(myArray.items, myArray.myLen())                                
+    myArray.search(4)                                                          

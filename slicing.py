@@ -1,7 +1,7 @@
-# slicing 
-# string[start:end] end index is excluded
+          
+                                         
 str = "GulabJamun"
-print(str[0:5]) # here G is 0 and b is 4 index and J is 5 index which is excluded
+print(str[0:5])                                                                  
 print(str[:6])
 print(str[5:])
 

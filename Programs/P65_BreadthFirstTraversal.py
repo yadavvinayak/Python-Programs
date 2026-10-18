@@ -1,6 +1,6 @@
 
-# Breadth First Traversal is the one in which we print the data level wise. Refer below code and output for more
-# explanation
+                                                                                                                
+             
 
 class Node(object):
     def __init__(self, data = None):
@@ -46,5 +46,5 @@ if __name__ == '__main__':
 
     breadthFirstTraversal(root)
 
-    # OUTPUT:
-    # 1 2 3 4
+             
+             

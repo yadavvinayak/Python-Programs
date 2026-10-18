@@ -1,11 +1,11 @@
-#This program shows an example of insertion sort using Python
+                                                             
 
-#  Insertion sort is good for collections that are very small
-#  or nearly sorted. Otherwise it's not a good sorting algorithm:
-#  it moves data around too much. Each time an insertion is made,
-#  all elements in a greater position are shifted.
+                                                             
+                                                                 
+                                                                 
+                                                  
 
-#  Best O(n); Average O(n^2); Worst O(n^2)
+                                          
 
 def insertionSort(List):
     for i in range(1, len(List)):

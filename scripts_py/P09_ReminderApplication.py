@@ -1,22 +1,22 @@
-#!/usr/bin/env python
+                     
 
 
-# This application was developed as I cannot remember for birthdays efficiently.
-# This app helps me remind birthdays and notifies me on their birthdays.
+                                                                                
+                                                                        
 
-# To store birthdays ceate a file 'reminder.data' and store birthdays in this format:
-# MonthDay Name Surname
+                                                                                     
+                       
 
-# Copy the python file to /bin:
-#   sudo cp -i /path/to/your_script.py /bin
-#   (your_script.py should be executable)
-# Add A New Cron Job:
-#   sudo crontab -e
-# Scroll to the bottom and add the following line (after all the #'s):
-#   @reboot python /bin/your_script.py &
-# And Reboot to check if the script is working
+                               
+                                           
+                                         
+                     
+                   
+                                                                      
+                                        
+                                              
 
-# Or simply search for 'Startup applications' and add you script there
+                                                                      
 
 import time
 import os

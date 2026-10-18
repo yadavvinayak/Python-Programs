@@ -1,4 +1,4 @@
-#This program illustrates an example of singly linked list
+                                                          
 
 class Node(object):
     def __init__(self, data, Next = None, Previous = None):
@@ -49,23 +49,23 @@ class LinkedList(object):
         current.setNext(newNode)
         newNode.setPrevious(current)
 
-    # def insertBetween(self, newItem, item):
-    #     current = self.head
-    #     newNode = Node(newItem)
-    #     previous = None
-    #     found = False
-    #     while not found:
-    #         if current.getData() == item:
-    #             found = True
-    #         else:
-    #             previous = current
-    #             current = current.getNext()
-    #
-    #     if previous == None:
-    #         self.head = current.getPrevious()
-    #     else:
-    #         previous.setNext(newNode)
-    #         newNode.setPrevious(previous)
+                                             
+                             
+                                 
+                         
+                       
+                          
+                                           
+                              
+                   
+                                    
+                                             
+     
+                              
+                                               
+               
+                                       
+                                           
 
     def getAllData(self):
         ''' This function displays the data elements of the Linked List '''
@@ -101,7 +101,7 @@ if __name__ == '__main__':
     myList.insertFirst(22)
     myList.insertLast(2)
     myList.remove(12)
-    # myList.insertBetween(12, 22)
-    # for i in range(0, 10):
-    #     myList.insertFirst(i)
+                                  
+                            
+                               
     print(myList.getAllData())

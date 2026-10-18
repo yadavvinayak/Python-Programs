@@ -1,4 +1,4 @@
-# This script helps to count number of words, number of lines and number of characters from a file
+                                                                                                  
 
 def countWords(fileName):
     numwords = 0
@@ -19,7 +19,7 @@ def countWords(fileName):
 if __name__ == '__main__':
     countWords('P07_ScriptToSendMail.py')
 
-    # OUTPUT:
-    # Words:  55
-    # Lines:  14
-    # Characters:  554
+             
+                
+                
+                      

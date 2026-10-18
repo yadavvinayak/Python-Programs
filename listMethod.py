@@ -1,7 +1,7 @@
-#methods of list
-#list are mutable we can change the list
-#string are immutable 
-#indexing
+                
+                                        
+                      
+         
 
 marks= [99,100, 90,95]
 print(marks)
@@ -10,7 +10,7 @@ marks[1]=90
 print(marks)
 
 
-#slicing
+        
 
 print(marks[1:3])
 

@@ -1,4 +1,4 @@
-#take positive and negative number
+                                  
 
 num= int(input("Enter the number: "))
 if(num>0):

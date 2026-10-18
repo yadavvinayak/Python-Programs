@@ -1,4 +1,4 @@
-#This program counts the vowels present in the user input
+                                                         
 
 def countVowels(sentence):
     '''This function counts the vowels'''

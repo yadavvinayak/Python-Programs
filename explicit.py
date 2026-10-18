@@ -1,4 +1,4 @@
-# take num as input convert to float and print both original and converted value with their data types
+                                                                                                      
 
 num = input ("Enter a value:" )
 convertedValue = float(num)

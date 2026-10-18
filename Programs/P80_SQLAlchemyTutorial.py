@@ -1,6 +1,6 @@
-# This is a simple tutorial on usinng SQLAlchemy as ORM (Object Relational Mapping)
+                                                                                   
 
-# Make sure you have installed SQLAlchemy using: pip3 install sqlalchemy
+                                                                        
 
 from sqlalchemy import (
     create_engine,
@@ -14,7 +14,7 @@ from sqlalchemy.orm import sessionmaker
 import os
 
 
-# create a sqlite db
+                    
 engine = create_engine('sqlite:///example.db', echo=True)
 Base = declarative_base()
 
@@ -36,7 +36,7 @@ class Student(Base):
 
 
 def create_tables():
-    # create tables
+                   
     Base.metadata.create_all(engine)
 
 
@@ -48,13 +48,13 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    # Create objects
+                    
     user = Student('Vinayak', 'VinayakYadav', 'Yadav', 'MIT')
     session.add(user)
 
-    # commit the record the database
+                                    
     session.commit()
 
-    # Select objects
+                    
     for student in session.query(Student).order_by(Student.id):
         print (student.firstname, student.lastname)

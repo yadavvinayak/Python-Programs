@@ -1,7 +1,7 @@
-# This example illustrates an example to calculate a hash of a file
+                                                                   
 
 import hashlib
-BLOCKSIZE = 65536           # Block read size if file is big enough
+BLOCKSIZE = 65536                                                  
 fileToOpen = '/home/vinayak/Documents/GITs/Python-Programs/Scripts/howto.txt'
 hasher = hashlib.md5()
 with open(fileToOpen, 'rb') as afile:

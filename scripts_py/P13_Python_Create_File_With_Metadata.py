@@ -1,4 +1,4 @@
-#!/usr/bin/python3.6
+                    
 import sys, os, datetime
 
 def create_file(file_name):

@@ -1,4 +1,4 @@
-# In this example, we will see how to implement graphs in Python
+                                                                
 
 class Vertex(object):
     ''' This class helps to create a Vertex for our graph '''
@@ -72,8 +72,8 @@ if __name__ == '__main__':
         for vertexes in vertex.getEdges():
             print('({}, {}) => {}'.format(vertex.getKey(), vertexes.getKey(), vertex.getWeight(vertexes)))
 
-    # OUTPUT:
-    # (C, D) => 3
-    # (A, C) => 6
-    # (A, D) => 2
-    # (A, B) => 5
+             
+                 
+                 
+                 
+                 

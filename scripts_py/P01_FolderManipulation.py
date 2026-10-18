@@ -1,4 +1,4 @@
-#In this script we will be ssing how to create folders using Python and manipuate them!
+                                                                                       
 
 import os
 import time
@@ -16,7 +16,7 @@ def createFiles(BASE_DIR):
 
 def renameFiles(BASE_DIR):
     ''' This function renames files '''
-    os.chdir(BASE_DIR) #Change directory to list the files
+    os.chdir(BASE_DIR)                                    
     for i in os.listdir():
         fileName, fileExt = os.path.splitext(i)
         print(fileName, fileExt)
@@ -24,7 +24,7 @@ def renameFiles(BASE_DIR):
 
 if __name__ == '__main__':
     BASE_DIR = '/home/vinayak/Downloads/PythonPrograms/Scripts/Tests/'
-    #createFolders(BASE_DIR)
+                            
     createFiles(BASE_DIR)
     time.sleep(10)
     renameFiles(BASE_DIR)

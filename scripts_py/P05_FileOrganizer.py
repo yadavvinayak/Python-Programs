@@ -1,4 +1,4 @@
-# This script helps to organize files
+                                     
 
 import os
 from pathlib import Path

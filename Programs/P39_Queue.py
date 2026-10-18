@@ -1,6 +1,6 @@
 
-# This program illustrates an example of Queue implementation in Python
-# Stack Operations: enqueue(), dequeue(), isFull(), isEmpty, peek()
+                                                                       
+                                                                   
 
 class Queue(object):
     def __init__(self, size):
