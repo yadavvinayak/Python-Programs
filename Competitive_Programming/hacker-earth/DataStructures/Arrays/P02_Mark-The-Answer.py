@@ -1,32 +1,4 @@
                                                                                                                 
-                                                                                                            
- 
-                                                                                                                  
-                                                                                                             
-                                                                                                                   
-           
- 
-                                                                                                                      
-                                                                          
- 
-              
-                                                                                                      
-                                                                                   
- 
-               
-                                             
- 
-             
-         
-         
-          
- 
-              
-     
-               
- 
-               
-   
 
 n, x = map(int, input().split())
 questions = input().split()

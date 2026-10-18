@@ -1,5 +1,4 @@
                                                                                                
-                                                     
 
 class A(object):
     def doThis(self):
@@ -8,7 +7,6 @@ class A(object):
 class B(A):
     pass
 
-                                                                               
 class C(object):
     def doThis(self):
         print('Doing this in C')

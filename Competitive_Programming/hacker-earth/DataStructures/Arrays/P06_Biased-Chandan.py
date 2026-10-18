@@ -1,33 +1,5 @@
                                                                                                                       
-                                                                                             
- 
-                                                                                                                     
-                                                                                                                     
-                                                                                                                      
-                                                                          
- 
-                                                                       
- 
-                    
-                                                                                                                      
-                                          
- 
-                     
-                         
- 
-              
-                
-                          
- 
-              
-   
-   
-   
-   
-   
-   
 
-                
 myArray = []
 sumAll = 0
 countZero = 0
@@ -49,7 +21,6 @@ for i in range(int(input())):
 
 print(sum(myArray))
 
-                  
 n=int(input())
 i=0
 a=[]

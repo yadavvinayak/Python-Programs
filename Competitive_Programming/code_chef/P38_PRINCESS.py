@@ -1,34 +1,4 @@
                                                                                                         
-                                                                                                         
-                                     
-                                                                                                             
-                                                                                                          
-                    
- 
-       
-                                                                                                        
-                                  
- 
-        
-                                                                    
- 
-             
-            
-                
- 
-         
-        
-   
-    
-       
- 
-         
-    
-     
-             
-                                                                                                   
- 
-                                                                                 
 
 def manacher(string):
 
@@ -40,16 +10,12 @@ def manacher(string):
     for i in range(1, length - 1):
         P[i] = (right > i) and min(right - i, P[2 * center - i])
 
-                                                    
         while string_with_bounds[i + 1 + P[i]] == string_with_bounds[i - 1 - P[i]]:
             P[i] += 1
 
-                                                    
-                                                     
         if i + P[i] > right:
             center, right = i, i + P[i]
 
-                                                         
     maxLen, centerIndex = max((n, i) for i, n in enumerate(P))
     return string[(centerIndex  - maxLen)//2: (centerIndex  + maxLen)//2]
 

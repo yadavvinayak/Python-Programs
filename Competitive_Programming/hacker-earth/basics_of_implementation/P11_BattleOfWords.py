@@ -1,37 +1,4 @@
                                                                                                                         
-                                              
- 
-                                                                                                                  
-                                                                                                                         
-                                                                                
- 
-                                                                                               
- 
-                                                                                                                         
-                       
- 
-        
- 
-                                                                       
-                                                                                                       
-                                                                
- 
-       
- 
-                                                                                      
- 
-         
- 
-                                                                                                                          
-                             
- 
-              
- 
-            
-                   
-                      
-                                            
-
 
 T = int(input())
 if(T>=1 and T<=10):
@@ -42,9 +9,6 @@ if(T>=1 and T<=10):
         as1 = input()
         bs = input()
 
-                              
-                       
-
         for i in range(97,97+26):
             if(as1.count(chr(i))>bs.count(chr(i))):
                 flag1=1
@@ -52,8 +16,6 @@ if(T>=1 and T<=10):
                 flag2=1
             if (flag1==1 and flag2==1):
                 break
-                       
-                       
 
         if(flag1==1 and flag2==0):
             print("You win some.")

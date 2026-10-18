@@ -1,10 +1,5 @@
                                                 
 
-                                                                                                           
-                          
-
-                                          
-
 def selectionSort(List):
     for i in range(len(List) - 1):                           
         minimum = i

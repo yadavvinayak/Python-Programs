@@ -1,25 +1,4 @@
                                                                                                               
-                                                                                                            
- 
-        
-                                                                                                       
-                                                                                                   
-                                                                             
- 
-         
-                                                                             
- 
-             
-               
-                
-                    
- 
-              
-   
-   
-     
-     
-     
 
 for _ in range(int(input())):
     roads = int(input())

@@ -1,24 +1,5 @@
                                                                                                                      
-                                                                                                                    
-                           
- 
-       
- 
-                                                                                                                       
- 
-        
- 
-                                                                                                                   
-          
- 
-              
-   
-     
- 
-               
-    
 
-               
 n= int(input())
 num= list(map(int, input().split(' ')))
 single_num= 0
@@ -29,14 +10,6 @@ if int(single_num)%11 ==0:
 else:
     print('NO')
 
-                                                                                                                  
-                 
-                                                                                                                      
-                                                                                                                   
-                                                                                                                       
-           
-
-                    
 skip = input()
 array = input().split()
 array = [int(i) for i in array]

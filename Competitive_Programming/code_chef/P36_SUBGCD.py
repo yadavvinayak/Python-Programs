@@ -1,43 +1,4 @@
                                                                                                     
-                                            
- 
-           
-                                                                                                         
-                                               
- 
- 
-                                         
- 
-                                                                                                    
- 
-       
-                                                                                                       
-                            
- 
-        
-                                                           
- 
-             
-            
-             
-              
- 
-         
-        
-   
-   
-     
-   
-       
- 
-         
-   
-    
-             
-                                                              
- 
-                                       
- 
 
 def gcd(firstNumber, secondNumber):
     firstNumber = int(firstNumber)

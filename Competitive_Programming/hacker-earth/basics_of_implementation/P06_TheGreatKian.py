@@ -1,23 +1,4 @@
                                                                                                                              
-                                                                                     
- 
-                                                                                 
- 
-                                                                                                                          
-                                                      
- 
-       
-                                                                    
-                                                                                        
- 
-        
-                                               
-              
-   
-           
- 
-               
-       
 
 numbers = int(input())
 inputS = input().split()

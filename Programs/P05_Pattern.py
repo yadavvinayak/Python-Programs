@@ -74,7 +74,6 @@ def pattern5(level):
             print("*", end='')
         print()
 
-
 if __name__ == '__main__':
     userInput = int(input('Enter the level: '))
     pattern1(userInput)

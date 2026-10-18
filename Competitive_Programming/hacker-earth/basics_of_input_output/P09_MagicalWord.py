@@ -1,27 +1,4 @@
                                                                                                                             
-                                                                                  
- 
-                                                                                                                       
-                                                           
- 
-                                                                                                                          
-                                                                                                                     
-                                                                               
- 
-                       
-                                                                                  
-                                                                                                                                   
- 
-               
-                                                                                                                           
-                                
- 
-                
-                                                                   
- 
-              
-               
-                 
 
 def isPrime(start, end):
     primes = []
@@ -55,7 +32,6 @@ while testCases:
             elif primes[j] > check:
                 result.append(chr(primes[j]))
                 break
-
 
     print(''.join([str(i) for i in result]))
         

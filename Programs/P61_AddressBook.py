@@ -1,6 +1,4 @@
 
-                                                                                                              
-                
 
 import pickle, os
 
@@ -19,7 +17,6 @@ class AddressBook(object):
     def __repr__(self):
         return '[Name: {0} | Address: {1} | Email: {2} | Phone: {3}]'.format(self.name, self.address, self.email, self.phone)
 
-                                                             
     def addContacts(self):
         try:
             if os.path.exists(self.filename) and os.path.getsize(self.filename) > 0:
@@ -41,7 +38,6 @@ class AddressBook(object):
         finally:
             myAddressBook.close()
 
-                                                                  
     def getDetailsFromUser(self):
         try:
             self.contacts['Name'] = str(input('Enter Contact\'s Full Name: '))
@@ -52,7 +48,6 @@ class AddressBook(object):
         except KeyboardInterrupt as error:
             raise error
 
-                                                    
     def displayContacts(self):
         if os.path.exists(self.filename) and os.path.getsize(self.filename) > 0:
             myAddressBook = open(self.filename, 'rb')
@@ -65,7 +60,6 @@ class AddressBook(object):
         else:
             print('No Record in database.')
 
-                                                          
     def searchContacts(self):
         if os.path.exists(self.filename) and os.path.getsize(self.filename) > 0:
             myAddressBook = open(self.filename, 'rb')
@@ -85,7 +79,6 @@ class AddressBook(object):
         else:
             print('No Record in database.')
 
-                            
     def modifyContacts(self):
         if os.path.exists(self.filename) and os.path.getsize(self.filename) > 0:
             myAddressBook = open(self.filename, 'rb')

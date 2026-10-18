@@ -1,45 +1,4 @@
                                                                                                                              
-                                                                                                                
- 
-                                                                                                                           
-                                                                                                                        
-                    
- 
-                                                                                                                         
-                                                                       
- 
-       
- 
-                                                                                                                           
-                                                                              
- 
-        
- 
-                                                                                                                   
-                     
- 
-             
- 
-                
-                      
-                      
-                      
-                      
-               
- 
-       
-   
-         
-          
- 
-        
-                   
-                  
-             
- 
-                                                                                                                                      
- 
-                                                                                                                      
 
 for i in range(int(input())):
         L, D, S, C = map(int,input().split())

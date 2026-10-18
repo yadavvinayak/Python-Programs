@@ -24,7 +24,6 @@ class Node(object):
     def setPrevious(self, newPrevious):
         self.previous = newPrevious
 
-
 class LinkedList(object):
     def __init__(self):
         self.head = None
@@ -48,24 +47,6 @@ class LinkedList(object):
             current = current.getNext()
         current.setNext(newNode)
         newNode.setPrevious(current)
-
-                                             
-                             
-                                 
-                         
-                       
-                          
-                                           
-                              
-                   
-                                    
-                                             
-     
-                              
-                                               
-               
-                                       
-                                           
 
     def getAllData(self):
         ''' This function displays the data elements of the Linked List '''
@@ -101,7 +82,5 @@ if __name__ == '__main__':
     myList.insertFirst(22)
     myList.insertLast(2)
     myList.remove(12)
-                                  
-                            
-                               
+
     print(myList.getAllData())

@@ -1,13 +1,5 @@
                                                                   
 
-                                                                                       
-                                                                                              
-                                                                                                       
-                                                                                                       
-                                                                                                    
-
-                                                                                
-
 def shellSort(myList):
     gap = len(myList) // 2
     while gap > 0:

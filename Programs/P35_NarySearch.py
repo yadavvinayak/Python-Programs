@@ -1,5 +1,4 @@
 
-                                                    
 
 ARRAY_SIZE = 10000000                          
 DIVISIONS = 10                           
@@ -55,26 +54,3 @@ def Main():
 if __name__ == '__main__':
     Main()
 
-
-             
-                                                                                                       
-                                 
-                                  
-                              
-       
-                                
-                            
-       
-                               
-                           
-       
-                              
-                          
-       
-                             
-                         
-       
-                               
-                        
-       
-                    

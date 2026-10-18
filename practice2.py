@@ -1,6 +1,5 @@
                     
-                                                             
-        
+
 str= input("Enter a value:")
 mid= len(str)//2
 output1= str[mid-1:mid+2]

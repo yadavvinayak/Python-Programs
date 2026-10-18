@@ -1,6 +1,4 @@
                                                     
-                                                                                             
-                    
 
 class Data(object):
     def getData(self):

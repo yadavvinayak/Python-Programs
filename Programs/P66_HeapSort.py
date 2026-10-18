@@ -1,17 +1,4 @@
 
-            
-                                                                 
-                                                            
-                                                    
-                                    
-                                                        
-                                                                   
-                                 
-                                             
-                  
-
-                               
-                                                         
 
 def HeapSort(alist):
     heapify(alist)                               

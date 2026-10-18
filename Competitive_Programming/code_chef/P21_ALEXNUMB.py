@@ -1,39 +1,4 @@
                                                          
-                                        
- 
-          
-          
-         
- 
-       
-                                                                                                                      
-                                                                                                                        
-                                                                                                  
- 
-        
-                                                                                                  
- 
-             
-           
-                
-              
-                         
- 
-         
-   
-   
-     
-   
-       
-         
- 
-   
-   
- 
-             
-                                   
- 
-                                               
 
 testCases = int(input())
 while testCases > 0 :

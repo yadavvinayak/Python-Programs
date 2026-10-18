@@ -1,5 +1,4 @@
 
-                                                              
 
 from collections import Counter
 
@@ -20,7 +19,6 @@ def pangram(sentence):
 	else:
 		return False
 
-                                    
 def pangram2(sentence):
     alphabet = list(map(chr, range(97, 123)))
     formattedString = ''.join(c for c in sentence if c.isalpha()).lower()

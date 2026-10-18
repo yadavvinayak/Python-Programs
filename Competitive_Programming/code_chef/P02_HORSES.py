@@ -1,32 +1,4 @@
                                                                                                
-                                                                                                   
-                                                                                                  
-                                                                              
- 
-        
-                                                                                     
-                                                              
-                                                                                   
- 
-         
-                                                                                              
- 
-              
-            
-              
-                       
- 
-          
- 
-        
-   
-   
-             
- 
-         
-   
-
-              
 
 testCase = int(input())
 for i in range(0, testCase):
@@ -40,8 +12,3 @@ for i in range(0, testCase):
             mdif = dif
     print(mdif)
 
-                            
-   
-   
-             
-   

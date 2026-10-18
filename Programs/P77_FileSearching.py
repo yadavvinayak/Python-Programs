@@ -1,18 +1,12 @@
 
-                                                                                          
-                                                                                                 
-                                                              
 
 import os
 from pathlib import Path
 
 DIRECTORY = '/home/vinayak/Desktop'
 
-                                           
 dirs = [name for name in os.listdir(DIRECTORY) if os.path.isdir(os.path.join(DIRECTORY, name))]
 
-                                     
-                                                                                                   
 files = []
 
 for root, dirs, files in os.walk(DIRECTORY):

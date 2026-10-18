@@ -1,8 +1,7 @@
                                                    
 
 class Vehicle():
-                                                                     
-                                                              
+
     def __init__(self):                                                      
         print('Calling init')
         self.val = 0
@@ -10,7 +9,6 @@ class Vehicle():
 
     def incrementVehicle(self):
         self.val += 1
-
 
 car = Vehicle()                        
 print('First obj value:',car.val)

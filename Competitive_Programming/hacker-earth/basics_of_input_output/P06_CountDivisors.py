@@ -1,15 +1,4 @@
                                                                                                                          
-                                                                            
- 
-              
-                                                                      
-             
- 
-               
-                                             
-             
-                  
-              
 
 number1, number2, divisor = map(int, input().split())
 count = 0

@@ -1,7 +1,5 @@
                                                  
 
-                                               
-
 x = 'Global x'
 
 def test():

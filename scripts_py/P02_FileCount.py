@@ -2,7 +2,6 @@
 
 import os
 
-                                                      
 PATH = '/home/vinayak/Documents/GITs/Python-Programs/Scripts'                        
 
 fileCount = 0

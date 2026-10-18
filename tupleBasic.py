@@ -4,8 +4,6 @@ myTuple = (78, 90, 75)
 print(len(myTuple))
 studentTuple= ("Anchal", "Divya", "Ishan")
 
-                                     
-
 print(studentTuple[1])
 
 emptyTuple=()

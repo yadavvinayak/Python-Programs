@@ -1,13 +1,5 @@
                                             
 
-                                                                   
-                                                                      
-                                                                    
-                                                                 
-                                                           
-
-                                      
-
 def merge(a,b):
     """ Function to merge two arrays """
     c = []
@@ -23,8 +15,6 @@ def merge(a,b):
     else:
         c += a
     return c
-
-                     
 
 def mergeSort(x):
     """ Function to sort an array using merge sort algorithm """

@@ -1,12 +1,5 @@
                                                              
 
-                                                             
-                                                                 
-                                                                 
-                                                  
-
-                                          
-
 def insertionSort(List):
     for i in range(1, len(List)):
         currentNumber = List[i]

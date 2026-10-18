@@ -1,7 +1,4 @@
 
-                                                                                        
-                                                                                                         
-                                              
 
 import pickle
 
@@ -10,7 +7,6 @@ def storeData():
     VinayakYadav = {'key' : 'VinayakYadav', 'name' : 'VinayakYadav', 'age' : 21, 'pay' : 40000}
     Jagdish = {'key' : 'Jagdish', 'name' : 'Jagdish Yadav', 'age' : 50, 'pay' : 50000}
 
-              
     db = {}
     db['VinayakYadav'] = VinayakYadav
     db['Jagdish'] = Jagdish

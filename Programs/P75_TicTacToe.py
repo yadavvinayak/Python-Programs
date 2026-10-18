@@ -1,10 +1,7 @@
 
-                                      
 
-                          
 choices = []
 
-                                         
 for i in range(0, 9):
     choices.append(str(i))
 
@@ -12,7 +9,6 @@ firstPlayer = True
 winner = False
 iterations = 0                             
 
-                                      
 def printBoard():
     print('\n=============')
     print('| ' + choices[0] + ' | ' + choices[1] + ' | ' + choices[2] + ' |')
@@ -22,7 +18,6 @@ def printBoard():
     print('| ' + choices[6] + ' | ' + choices[7] + ' | ' + choices[8] + ' |')
     print('=============\n')
 
-                                                                    
 while not winner and iterations < 9:
     printBoard()
 
@@ -39,7 +34,6 @@ while not winner and iterations < 9:
         print('Please enter a valid number from the board')
         continue
 
-                                               
     if choices[playerInput] == 'X' or choices[playerInput] == 'O':
         print('Illegal move, try again!')
         continue
@@ -51,14 +45,12 @@ while not winner and iterations < 9:
 
     firstPlayer = not firstPlayer
 
-                        
     for index in range(0, 3):
                                        
         if (choices[index * 3] == choices[((index * 3) + 1)] and choices[index * 3] == choices[((index * 3) + 2)]):
             winner = True
             printBoard()
 
-                                       
         if(choices[index] == choices[index + 3] and choices[index + 3] == choices[index + 6]):
             winner = True
             printBoard()

@@ -1,43 +1,4 @@
                                                                                                            
-                                                                                                          
-                                                                                                   
-                                                                                                           
-                                                                                                      
-                                                                                                        
-                                                                                                          
-                                                                                                      
-                                                                                                      
-                             
- 
-                                                                                                         
-                                
- 
-                                                                                                         
-                                                  
- 
-                                                                                                           
-                                                                                 
- 
-                                                                                                        
- 
-               
-                                                                                                              
-                                   
- 
-                
-                                                                                                                 
- 
-              
-   
-       
-       
-       
-   
-   
- 
-               
-     
-     
 
 def enqueue(myList, element):
   try:

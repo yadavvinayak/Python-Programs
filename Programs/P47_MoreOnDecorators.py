@@ -1,5 +1,4 @@
                                                                              
-                                                  
 
 class BankAccount(object):
     def __init__(self, firstName, lastName):
@@ -19,8 +18,6 @@ class BankAccount(object):
 if __name__ == '__main__':
     acc = BankAccount('VinayakYadav', 'Yadav')
     print(acc.fullName)                                                                                      
-                                                                                         
 
-                                                                                                    
     acc.fullName = 'Jagdish Yadav'
     print(acc.fullName)

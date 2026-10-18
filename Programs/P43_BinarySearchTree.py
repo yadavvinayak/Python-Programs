@@ -27,7 +27,6 @@ class Node(object):
                 self.rightChild = Node(data)
                 return True
 
-
     def find(self, data):
         ''' This function checks whether the specified data is in tree or not '''
         if(data == self.data):
@@ -74,7 +73,6 @@ class Tree(object):
     def __init__(self, initial_data = []):
         self.root = None
 
-                                       
         for data in initial_data:
             self.insert(data)
 
@@ -109,7 +107,6 @@ class Tree(object):
             print('Postorder: ')
             self.root.postorder()
 
-
     def pprint(self, head_node=0, _pre="", _last=True, term=False):
 
         head_node = self.root if head_node == 0 else head_node
@@ -123,7 +120,6 @@ class Tree(object):
 
         for i, child in enumerate([head_node.leftChild, head_node.rightChild]):
             self.pprint(child,  _pre, bool(i) ,term=not(bool(child)))
-
 
 if __name__ == '__main__':
     tree = Tree()

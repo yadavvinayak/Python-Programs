@@ -1,42 +1,4 @@
                                                                                                    
- 
-                                                                                                        
-                                                                                                          
-                                                                                                            
-                
- 
-                                                                                                  
-                                                                                                       
-                                               
- 
-       
-                                                                               
- 
-                                                                                                      
-         
- 
-        
-                                                                                          
- 
-             
-                  
- 
-               
- 
-          
-        
-   
-           
- 
-         
-     
- 
-        
-   
-           
- 
-         
-    
 
 numberOfMembers =  int(input())
 C = input().split()

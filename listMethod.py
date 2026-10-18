@@ -1,16 +1,10 @@
                 
-                                        
-                      
-         
 
 marks= [99,100, 90,95]
 print(marks)
 
 marks[1]=90
 print(marks)
-
-
-        
 
 print(marks[1:3])
 

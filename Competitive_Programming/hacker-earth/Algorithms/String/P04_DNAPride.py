@@ -1,41 +1,4 @@
                                                                                                           
-                                                                                                       
-                                                                                                       
-                                                                                                        
-                                                                                                          
-                                                                                  
- 
-                                                                                                      
-                                                                                                    
-                                                                             
- 
-              
- 
-                                                                                                        
-                                                                                  
- 
-               
- 
-                                                      
- 
-           
- 
-          
-          
- 
-              
-   
-   
-    
-   
-      
-   
-        
- 
-               
-    
-      
-                              
 
 for _ in range(int(input())):
     string_length = int(input())

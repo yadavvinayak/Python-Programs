@@ -1,9 +1,5 @@
                                             
 
-                                                                                                                                                                                                                         
-
-                            
-
 class BankAccount:
     def __init__(self,name,balance):
         self.name=name
@@ -14,12 +10,6 @@ user1=BankAccount("Elon Musk","10000")
 user1.name="Tim cook"
 print(user1.name)
 print(user1.total)
-
-                  
-                                                    
-
-
-                         
 
 class BankAccount:
     def __init__(self,name,balance):
@@ -34,5 +24,3 @@ user1.name="Tim cook"
 print(user1.name)
 print(user1.total)
 
-                 
-                                                  

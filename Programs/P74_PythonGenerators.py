@@ -1,6 +1,4 @@
 
-                                                                                                          
-                  
 
 def simpleGenerator(numbers):
     i = 0

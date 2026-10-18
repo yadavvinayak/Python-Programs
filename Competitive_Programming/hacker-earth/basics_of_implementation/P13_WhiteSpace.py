@@ -1,22 +1,4 @@
                                                                          
- 
-              
- 
-                     
- 
-               
- 
-                             
- 
-             
- 
-                
- 
-              
-             
- 
-               
-   
 
 string = input()
 count = 0

@@ -1,51 +1,5 @@
                                                                                                     
-                                                                                                         
- 
-                                                                                                          
-                                                                                                         
-                               
- 
-                                                                                                     
-                                                                                                       
-                                  
- 
-       
-                                                                                   
-                           
- 
-                                                                                                     
-                                                                                                       
-                                                                                                        
-                                       
- 
-                                                                                                         
-                                                                                                         
-                                                                                                         
-                      
- 
-        
-                                                                                                         
-                  
- 
-             
-            
-               
-             
-           
-           
-         
- 
-        
-   
-   
-       
-       
- 
-         
-   
-   
 
-              
 testCases = int(input())
 while testCases:
     testCases -= 1

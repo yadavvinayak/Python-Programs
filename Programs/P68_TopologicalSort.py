@@ -1,18 +1,14 @@
 
-                               
-                                                                                                
 
 class Graph():
     def __init__(self, count):
         self.vertex = {}
         self.count = count                        
 
-                                     
     def printGraph(self):
         for i in self.vertex.keys():
             print(i,' -> ', ' -> '.join([str(j) for j in self.vertex[i]]))
 
-                                             
     def addEdge(self, fromVertex, toVertex):
                                              
         if fromVertex in self.vertex.keys():
@@ -31,15 +27,11 @@ class Graph():
                 self.topologicalSortRec(vertex, visited, stack)
 
         print(' '.join([str(i) for i in stack]))
-                      
 
-                                             
     def topologicalSortRec(self, vertex, visited, stack):
 
-                                          
         visited[vertex] = True
 
-                                                     
         try:
             for adjacentNode in self.vertex[vertex]:
                 if visited[adjacentNode] == False:
@@ -47,7 +39,6 @@ class Graph():
         except KeyError:
             return
 
-                                                              
         stack.insert(0,vertex)
 
 if __name__ == '__main__':
@@ -61,5 +52,3 @@ if __name__ == '__main__':
                     
     g.topologicalSort()
 
-             
-                 

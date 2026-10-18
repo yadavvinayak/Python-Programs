@@ -1,17 +1,5 @@
                       
 
-                                                                                                               
-                                                                                                                    
-
-       
-                                                                        
-                                                      
-                                                                                                                   
-                                                                                                 
-                                                                                                                       
-                                                                                   
-                                                                                           
-
 def SieveOfEratosthenes(n):
     primes = [True] * (n + 1)
     p = 2                                                    
@@ -24,8 +12,7 @@ def SieveOfEratosthenes(n):
                 primes[i] = False
 
         p += 1
-        
-                         
+
     for i in range(2, n):
         if primes[i]:
             print(i)

@@ -3,7 +3,6 @@
 import os
 from pathlib import Path
 
-
 DIRECTORIES = {
     "HTML": [".html5", ".html", ".htm", ".xhtml"],
     "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", "svg",
@@ -27,11 +26,9 @@ DIRECTORIES = {
 
 }
 
-
 FILE_FORMATS = {file_format: directory
                 for directory, file_formats in DIRECTORIES.items()
                 for file_format in file_formats}
-
 
 def organize_junk():
     for entry in os.scandir():
@@ -57,7 +54,6 @@ def organize_junk():
                 os.rename(os.getcwd() + '/' + str(Path(dir)), os.getcwd() + '/OTHER-FILES/' + str(Path(dir)))
         except:
             pass
-
 
 if __name__ == "__main__":
     organize_junk()

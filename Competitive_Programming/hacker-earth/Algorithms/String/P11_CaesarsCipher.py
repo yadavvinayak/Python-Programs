@@ -1,44 +1,5 @@
                                                                                                           
-                                                                                                          
-                                                                                                            
-            
- 
-                                                                          
-                   
- 
-                                                                                                              
-                                                                                                           
-                                                      
- 
-        
- 
-                                                                         
- 
-                                                                                     
- 
-         
- 
-                                                                                                            
-                                                                        
- 
-              
-       
-            
-            
-           
- 
-              
-   
-     
-     
-     
-     
- 
-               
-   
-    
 
-             
 for _ in range(int(input())):
     string_one = input()
     string_two= input()
@@ -57,7 +18,6 @@ for _ in range(int(input())):
     else:
         print(-1)
 
-                          
 tests = int(input().strip())
 for i in range(tests):
     plain = input().strip()

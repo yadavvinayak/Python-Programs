@@ -1,14 +1,4 @@
                                                                                                                        
-                                                                                                                                          
- 
-               
-                                                                                                                        
- 
-               
-                                                              
- 
-             
-            
 
 def factorial(number):
     if number == 1 or number == 0:

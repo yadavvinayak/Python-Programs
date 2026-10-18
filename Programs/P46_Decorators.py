@@ -1,10 +1,5 @@
                                                                    
 
-                                                                                        
-                                                                                       
-                                                                                          
-                                                   
-
 def decorator(myFunc):
     def insideDecorator(*args):
         print('insideDecorator Function executed before {}'.format(myFunc.__name__))

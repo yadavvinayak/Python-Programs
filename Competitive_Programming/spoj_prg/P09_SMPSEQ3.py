@@ -1,27 +1,4 @@
                                                                                                                             
-                                                                             
- 
-                          
- 
-                                                                                              
-                                
- 
-                                                                                              
-                                
- 
-                           
- 
-                                                         
- 
-         
- 
-        
-   
-             
-   
-                
-         
-     
 
 testCase1 = int(input())
 a = input().split()

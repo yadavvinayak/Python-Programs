@@ -140,6 +140,5 @@ def chat():
     chat = Chat(pairs, reflections)
     chat.converse()
 
-                          
 if __name__ == "__main__":
     chat()

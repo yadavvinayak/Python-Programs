@@ -1,46 +1,5 @@
                                                                                                                  
-                                                                    
- 
-        
-                                                                                                                    
-                                                                                                                     
-           
- 
-         
-                                                                         
- 
-              
-                  
-                
-               
- 
-              
-      
-                
-    
-    
-    
-    
-    
-    
-    
-    
-    
-     
- 
-               
-     
-     
-     
-     
-     
-    
-    
-    
-    
-    
 
-                                     
 n, q = map(int, input().split())
 array = [int(i) for i in input().split()]
 array.insert(0, 0)
@@ -67,7 +26,6 @@ for i in range(q):
     else:
         print('NO')
 
-                                                                        
 in_ = input().split()
 arr = [x for x in input().split()]
 arr =set(arr)                                                                  

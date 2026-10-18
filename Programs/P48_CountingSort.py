@@ -1,31 +1,4 @@
 
-            
-                                                  
-                                                              
-                                                            
-                                                              
-                                                              
-                                                             
-                                                                 
-                                                                
-                                                              
-                                                                 
-
-                        
-                                                             
-                                                             
-                                                          
-          
-                                                             
-                                                       
-                                                           
-                                                     
-                                                        
-                   
-
-                                                            
-                                                         
-                            
 
 def countingSort(myList):
     maxValue = 0

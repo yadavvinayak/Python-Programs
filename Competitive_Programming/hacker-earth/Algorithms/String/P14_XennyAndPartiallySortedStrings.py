@@ -1,44 +1,4 @@
                                                                                                             
-                                                                                                             
-                                                                        
- 
-                                               
-                                                                                                            
-                                                                                                    
-                                                                                     
- 
-       
- 
-                                                                                     
-                     
-                                           
-                                                              
-                                             
-                                                                                  
-                                                                             
-                                                                             
- 
-        
- 
-                                                                           
- 
-             
- 
-            
-             
-                                     
-                    
-                                     
- 
-              
-   
-       
-        
-        
-        
- 
-               
-        
 
 for _ in range(int(input())):
 	n, k, m = input().split()

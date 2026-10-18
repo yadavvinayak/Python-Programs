@@ -2,12 +2,10 @@
 
 import json
 
-                            
 def storeJSON(fileName, data = {}):
     with open(fileName, 'w')  as fd:
         json.dump(data, fd, indent = 4, separators = (',', ': '))
 
-                                   
 def loadJSON(fileName):
     with open(fileName) as fd:
         data = json.load(fd)

@@ -1,44 +1,5 @@
                         
- 
-                                                                                                               
-                                                                                                            
-                                                                                                           
-                                                                                                                              
-                                                                                            
-                                    
- 
-        
-                                                                                                                                   
- 
-         
-                                                                                                                 
- 
-              
-          
-                                    
-                              
-             
- 
-              
-   
-   
-   
-   
-   
- 
-               
-   
-   
-   
-   
- 
-             
-                                                                        
-                                                                               
-                                                                                    
-                                                                               
 
-             
 array = []
 for i in range(int(input())):
     array.append(input())
@@ -50,7 +11,6 @@ for i in range(len(array)):
             count += 1
     print(count)
 
-                 
 n = int(input())
 a = []
 for i in range(n):

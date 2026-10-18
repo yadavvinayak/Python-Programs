@@ -1,17 +1,4 @@
                                                                                                                         
-                                                                                                                         
-                                                                                                  
- 
-              
-                                                      
-   
-   
- 
-               
-                                              
- 
-             
-                                                         
 
 userInput = input()
 result = []

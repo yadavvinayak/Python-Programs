@@ -2,7 +2,6 @@
 
 import os
 
-                                      
 PATH = '/home/vinayak/Documents/GITs/Python-Programs/Scripts'                        
 
 def searchFile(fileName):
@@ -22,8 +21,3 @@ def searchFile(fileName):
 if __name__ == '__main__':
     searchFile('6-Folder.txt')
 
-             
-                                                                                                             
-                                                                      
-                                                                            
-                        

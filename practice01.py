@@ -4,7 +4,6 @@ while (i<=10):
     i+=1
 print("out of loop")
 
-
 j=10
 while(j>=1):
     print(j)

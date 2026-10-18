@@ -31,7 +31,6 @@ if __name__ == '__main__':
                 print('Enter only a letter!')
                 continue
 
-                                     
             if not guess.isalpha():
                 print('Enter only a LETTER')
                 continue
@@ -42,12 +41,9 @@ if __name__ == '__main__':
                 print('You have already guessed that letter')
                 continue
 
-
-                                           
             if guess in word:
                 letterGuessed += guess
 
-                            
             for char in word:
                 if char in letterGuessed:
                     print(char, end = ' ')
@@ -55,13 +51,11 @@ if __name__ == '__main__':
                 else:
                     print('_', end = ' ')
 
-                                                 
             if (Counter(letterGuessed) == Counter(word)):
                 print()
                 print('Congratulations, You won!')
                 break
 
-                                             
         if chances == 0:
             print()
             print('You lost! Try again..')
@@ -72,4 +66,3 @@ if __name__ == '__main__':
         print('Bye! Try again.')
         exit()
 
-                              

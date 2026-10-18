@@ -55,7 +55,6 @@ class Graph(object):
     def __iter__(self):
         return iter(self.vertexList.values())
 
-
 if __name__ == '__main__':
     graph = Graph()
     graph.addVertex('A')
@@ -72,8 +71,3 @@ if __name__ == '__main__':
         for vertexes in vertex.getEdges():
             print('({}, {}) => {}'.format(vertex.getKey(), vertexes.getKey(), vertex.getWeight(vertexes)))
 
-             
-                 
-                 
-                 
-                 

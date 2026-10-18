@@ -1,40 +1,4 @@
                                                                                    
-                                                                                                              
-                                                                             
-                                                                                                         
-                                                                                                           
-             
-                                
- 
-        
-                                             
-                                                                
- 
-         
-                                                   
- 
-              
-             
-                 
- 
-              
-   
-     
-     
-     
-     
- 
-               
-   
-   
-   
-   
- 
-             
-                                         
-                                
-                                       
-                                        
 
 testCases = int(input())
 for _ in range(testCases):
@@ -46,15 +10,3 @@ for _ in range(testCases):
         c //= 2
     print(result)
 
-                            
-
-                 
-          
-              
-               
-             
-               
- 
-                                
-                                       
-                      

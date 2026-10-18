@@ -1,12 +1,4 @@
 
-                                                                                                  
-                                                                                                     
-                                                                                                         
-                                              
-                                                                                                
-                                                                                                      
-                                                                                                        
-                               
 
 def perfectNumber(number):
     sum = 0

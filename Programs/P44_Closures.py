@@ -1,11 +1,4 @@
 
-            
-                                                                           
-                                                                                                
-                                                                                             
-                                                                                               
-                                                                                                       
-                                 
 
 def outerFunction(text):
     text = text

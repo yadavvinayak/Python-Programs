@@ -1,13 +1,5 @@
                                                   
 
-                                                                       
-                                                                      
-                                                                       
-                                                                      
-                                                                     
-        
-
-                                             
 import time
 
 def quickSort(myList, start, end):
@@ -42,7 +34,6 @@ def partition(myList, start, end):
     myList[right]=temp
     return right
 
-                           
 def quicksortBetter(arr):
     if len(arr) <= 1:
         return arr

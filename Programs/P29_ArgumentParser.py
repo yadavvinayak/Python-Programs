@@ -11,10 +11,8 @@ def argumentParser():
     else:
         print('Dude give some arguments! Type ArgumentParser -h for more details')
 
-
 def slowBros():
     print('SLOWBROS MEMBERS: \nVinayakYadav\nChinmaya Kaundanya\nAkash Nalawade\nSanket Parode')
-
 
 if __name__ == '__main__':
     argumentParser()

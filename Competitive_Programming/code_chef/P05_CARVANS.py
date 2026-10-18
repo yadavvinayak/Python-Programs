@@ -1,32 +1,4 @@
        
-                                                                                                      
-                                                                                                      
-                                                                                                        
-                                                               
- 
-        
-                                                                                                           
-                       
- 
-         
-        
-   
-   
-    
-   
-       
-   
-           
- 
-         
-   
-   
-   
- 
-             
-             
-                
-                                                                                
 
 testCases = int(input())
 while testCases:

@@ -5,13 +5,7 @@ print(str1)
 print(str2)
 print(str3)
 
-                     
-
 print("hello"+" world")
 
-                     
-
 print(len(str3))
-
-
 

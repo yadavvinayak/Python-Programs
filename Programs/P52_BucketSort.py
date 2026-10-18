@@ -1,16 +1,5 @@
                                                                      
 
-                                                                                                 
-                                                                                                       
-                                                                                                 
-                                                                                                  
-                                                                                                     
-                                                                                                          
-                                
-
-                               
-                                                     
-
 from P26_InsertionSort import insertionSort
 import math
 
@@ -23,24 +12,20 @@ def bucketSort(myList, bucketSize=DEFAULT_BUCKET_SIZE):
     minValue = myList[0]
     maxValue = myList[0]
 
-                                            
     for i in range(0, len(myList)):
         if myList[i] < minValue:
             minValue = myList[i]
         elif myList[i] > maxValue:
             maxValue = myList[i]
 
-                        
     bucketCount = math.floor((maxValue - minValue) / bucketSize) + 1
     buckets = []
     for i in range(0, bucketCount):
         buckets.append([])
 
-                                   
     for i in range(0, len(myList)):
         buckets[math.floor((myList[i] - minValue) / bucketSize)].append(myList[i])
 
-                                                  
     sortedArray = []
     for i in range(0, len(buckets)):
         insertionSort(buckets[i])

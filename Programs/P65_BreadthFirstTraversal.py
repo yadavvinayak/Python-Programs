@@ -1,6 +1,4 @@
 
-                                                                                                                
-             
 
 class Node(object):
     def __init__(self, data = None):
@@ -46,5 +44,3 @@ if __name__ == '__main__':
 
     breadthFirstTraversal(root)
 
-             
-             

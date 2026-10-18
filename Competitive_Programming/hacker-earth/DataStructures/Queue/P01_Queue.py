@@ -1,35 +1,4 @@
                                                                                                       
-                                                                                                       
-                                                                                                       
-                               
- 
-              
-               
-                                           
- 
-               
-                                                    
-                                                                                                           
-                                                
- 
-             
-         
-         
- 
-              
-   
-     
-   
-   
-     
-   
- 
-               
-   
-     
-      
-   
-     
 
 def enqueue(myList, element):
   myList.insert(0, element)

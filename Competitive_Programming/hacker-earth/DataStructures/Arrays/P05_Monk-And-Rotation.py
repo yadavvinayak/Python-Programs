@@ -1,30 +1,4 @@
                                                                                                                      
-                                                                                                                      
-                                                                                                                                                                        
- 
-        
-                                                                                  
-                     
-                                                                                                                   
-                              
-                                                                                                 
- 
-         
-                           
- 
-              
-        
-         
-         
-            
- 
-              
-   
-     
-           
- 
-               
-           
 
 from collections import deque
 testCases = int(input())
@@ -35,7 +9,6 @@ for _ in range(testCases):
     myArray.rotate(k)
     print(' '.join(myArray))
 
-               
 for _ in range(int(input())):
     n,sd=map(int,input().split())
     ls=input().split()

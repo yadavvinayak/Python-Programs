@@ -10,19 +10,13 @@ print(x/y)
 print(x%y)
 print(x**y)
 
-
-                      
-
 print(x==y)
 print(x>=y)
-
-                   
 
 print("Not operator result", x>y and x<y)
 print("Not operator result", x>y or x<y)
 print("Not operator result", not (x>y))
 
-                    
 a=2
 b=3
 

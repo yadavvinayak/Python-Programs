@@ -1,7 +1,4 @@
                                                                                                          
-                                                                                            
-                                                                               
-                                                                                    
 
 class Employee(object):
     def __init__(self, firstname, lastname, salary = 0):
@@ -12,19 +9,15 @@ class Employee(object):
     def __str__(self):
         return 'Full Name: ' + self.firstname + ' ' + self.lastname
 
-                                                              
     def __int__(self):
         return self.salary
 
-                              
     def __eq__(self,other):
        return self.salary==other.salary   
 
-                             
     def __add__(self, other):
         return self.salary + other.salary
 
-                             
     def __mul__(self, other):
         return self.salary * other.salary
 

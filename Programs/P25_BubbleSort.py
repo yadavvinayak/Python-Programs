@@ -1,16 +1,5 @@
                                                           
 
-                                                                 
-                                                                       
-                                                                   
-                                                                      
-                                                                     
-                                                                       
-                                                                  
-                                     
-
-                                             
-
 def bubbleSort(List):
     for i in range(len(List)):
         for j in range(len(List) - 1, i, -1):

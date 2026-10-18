@@ -1,6 +1,4 @@
                                                                        
-                                                                                       
-                                               
 
 import socket
 import os
@@ -18,7 +16,6 @@ except socket.error as e:
 print('Waitiing for a Connection..')
 ServerSocket.listen(5)
 
-                                           
 def threaded_client(connection):
     connection.send(str.encode('Welcome to the Server\n'))
     while True:

@@ -1,12 +1,9 @@
 
-                                                                                            
-                                                                       
 
 import email, getpass, imaplib, os
 detach_dir = '.'                                                                        
                                             
 pwd = getpass.getpass("Enter your Gmail Password: ")
-                                     
 
 mail = imaplib.IMAP4_SSL("imap.gmail.com")
 mail.login('vinayak.comp@mmcoe.edu.in', pwd)
@@ -24,7 +21,6 @@ for emailid in ids:
     email_body = data[0][1]                                                    
     mailFetch = email.message_from_bytes(email_body)                                                
 
-                                    
     if mailFetch.get_content_maintype() != 'multipart':
         continue
 
@@ -33,13 +29,11 @@ for emailid in ids:
                                        
     print ("["+mailFetch["From"]+"]:" + mailFetch['Subject'].replace('=?utf-8?q?', '').replace('_', ' ').replace('=3F?=', '?').replace('?=',''))
 
-                                                                                                             
     for part in mailFetch.walk():
                                                         
         if part.get_content_maintype() == 'multipart':
             continue
 
-                                      
         if part.get('Content-Disposition') is None:
             continue
 
@@ -47,7 +41,6 @@ for emailid in ids:
 
         att_path = os.path.join(detach_dir, filename)
 
-                                   
         if not os.path.isfile(att_path) :
                                      
             fp = open(att_path, 'wb')

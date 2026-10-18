@@ -1,6 +1,5 @@
                                                                                        
 marks = {}
-                    
 
 marks["Maths"]=99
 marks["Chemistry"]=99

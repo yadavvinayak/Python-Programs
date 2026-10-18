@@ -1,24 +1,4 @@
                                                                                                                                        
-                                                                                                                      
-
-                                              
-
-       
-                                                                                      
-        
-                                                                                           
-
-             
-           
-            
-
-                                                                                                     
-
-               
-   
-   
-                
-   
 
 import collections
 for _ in range(int(input())):
@@ -28,8 +8,7 @@ for _ in range(int(input())):
     n = int(input())
     j = bin(n)
     bl = len(j) - 2
-    
-    
+
     while bl > 0:
         lo = bl - 2
         

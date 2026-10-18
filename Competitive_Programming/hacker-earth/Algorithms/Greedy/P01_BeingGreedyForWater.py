@@ -1,27 +1,4 @@
                                                                                                   
-                                                                                  
- 
-        
-                                                           
-                                                                                                              
-                                        
-                                                    
- 
-         
-                                                                      
- 
-              
-         
-         
-         
- 
-              
-   
-      
-           
- 
-               
-   
 
 for _ in range(int(input())):
     N, capacity = map(int, input().split())

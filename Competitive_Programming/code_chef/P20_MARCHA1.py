@@ -1,80 +1,4 @@
                                                                                                                           
-                                                                                                                       
-                                                                         
- 
-                                                                                                                       
-                                                                                                                       
-                                                                                                                        
-                                                                                                                      
-                                                                           
- 
-                                                                                                                          
-                                                                                                                        
-                                                                                               
- 
-       
-                                                                                                                          
-                                                                                                                     
-                                                                                                                     
-                                          
- 
-        
-                                                                                                                        
-                 
- 
-         
-        
-   
-     
-   
-   
-   
-      
-   
-   
-   
-   
-    
-      
-   
-   
-   
-   
-    
-      
-   
-   
-   
-    
-    
-        
-    
-   
-   
-     
-     
-     
-     
-     
-     
-   
-    
-    
-     
-     
-     
-    
-     
-    
-    
-     
- 
-         
-     
-     
-     
-    
-     
 
 from itertools import combinations
 
@@ -85,7 +9,6 @@ def subset(a, n, m):
             if sum(j) == m:
                 return "Yes"
     return "No"
-
 
 for _ in range(int(input())):
     n, m = map(int, input().split())

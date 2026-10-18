@@ -19,7 +19,3 @@ def countWords(fileName):
 if __name__ == '__main__':
     countWords('P07_ScriptToSendMail.py')
 
-             
-                
-                
-                      

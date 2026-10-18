@@ -1,5 +1,4 @@
                                                                                                
-                                                                                
 
 class BinaryTree(object):
 
@@ -36,15 +35,11 @@ class BinaryTree(object):
             self.left = tree
             tree.left = self.left
 
-
-
-
 def printTree(tree):
         if tree != None:
             printTree(tree.getLeftChild())
             print(tree.getnodeDataValue())
             printTree(tree.getRightChild())
-
 
 def pprint(head_node, _pre="", _last=True, term=False):
     data = "*" if head_node is None else head_node.nodeData
@@ -60,9 +55,6 @@ def pprint(head_node, _pre="", _last=True, term=False):
     for i, child in enumerate([left, right]):
         pprint(child,  _pre, bool(i) ,term=not(bool(child)))
 
-
-
-
 def testTree():
     myTree = BinaryTree("1")
     myTree.insertLeft("2")
@@ -74,8 +66,3 @@ def testTree():
 if __name__ == '__main__':
     testTree()
 
-            
-       
-       
-       
-       

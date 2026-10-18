@@ -1,35 +1,4 @@
                                                                                                              
-                                                                                                            
-                                                                                                            
-                                                                               
- 
-                                                                                               
- 
-              
- 
-                                                                                                         
-                                                                                       
- 
-               
- 
-                                                                     
- 
-            
- 
-         
-         
-         
- 
-              
-   
-      
-              
-       
-                  
- 
-               
-              
-                  
 
 myString = 'abcdefghijklmnopqrstuvwxyz'
 myStringU = myString.upper()

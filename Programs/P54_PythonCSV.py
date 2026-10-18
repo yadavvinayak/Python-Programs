@@ -1,12 +1,5 @@
                                                               
 
-                                                               
-                                                                                                               
-                                                                                         
-                                                                                  
-                                                                                             
-                                                                  
-
 import csv
 
 def csvRead(filePath):
@@ -21,8 +14,7 @@ def csvWrite(filePath, data):
         writer.writerow(data)
 
 if __name__ == '__main__':
-                                      
-                                   
+
     userInput = input('What is your Fullname? ')
     userInput = userInput.split(' ')
     csvWrite('example.csv', userInput)

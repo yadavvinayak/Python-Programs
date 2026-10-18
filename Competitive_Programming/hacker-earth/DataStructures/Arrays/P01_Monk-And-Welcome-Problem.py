@@ -1,32 +1,4 @@
                                                                                                               
-                                                                                                                           
-                                          
-                  
-       
-                                                                                   
- 
-        
-                                                                    
-                                                                        
-                                                                        
- 
-         
-                                                        
- 
-                    
-            
-                
-       
-                
-       
- 
-              
-   
-           
-            
- 
-               
-            
 
 n = int(input())
 arrayA = input().split()

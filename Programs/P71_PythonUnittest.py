@@ -1,5 +1,4 @@
 
-                                                                                                               
 
 import unittest
 
@@ -18,7 +17,6 @@ def checkPrime(number):
     else:
         return False
 
-                                
 class CheckPrime(unittest.TestCase):
 
     def test_checkPrime(self):
@@ -36,8 +34,3 @@ class CheckPrime(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-             
-                                                                            
-                           
-       
-        

@@ -1,31 +1,4 @@
                                                                                                                           
-                                        
-                              
-                                                                     
-                                                                                                                       
-                                                                                                                          
-        
-                                                                                                  
- 
-        
-                                                                        
-                                             
- 
-         
-                                                                                                   
- 
-              
-             
-                           
-                                                
- 
-              
-   
-           
-       
-               
-    
-        
 
 alphabets = 'abcdefghijklmnopqrstuvwxyz'
 testCases = int(input())

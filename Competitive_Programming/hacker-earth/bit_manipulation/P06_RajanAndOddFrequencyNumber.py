@@ -1,22 +1,5 @@
                                                                                                                                                                                                                                                   
 
-       
-                                 
-                                              
-        
-                            
-             
-         
-            
-
-               
-   
-           
-                
-   
-             
-                                                                            
-
 a=int(input())
 b=list(map(int,input().split()))
 d=b[0]

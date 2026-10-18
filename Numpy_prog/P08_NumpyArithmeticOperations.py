@@ -7,18 +7,13 @@ print(firstArray)
 secondArray = np.arange(4)
 print(secondArray)
 
-                                                             
 print(np.add(firstArray, secondArray))
 
-                              
 print(np.subtract(firstArray, secondArray))
 
-                              
 print(np.multiply(firstArray, secondArray))
 
-                               
 print(np.divide(firstArray, secondArray))
 
-                                                                           
 array = np.array([1, 2, 3])
 print(np.power(array, 2))                

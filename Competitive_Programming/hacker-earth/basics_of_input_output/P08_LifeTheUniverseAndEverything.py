@@ -1,18 +1,4 @@
                                                                                                                     
-                                                                                                                     
-                                                         
- 
-               
-   
-   
-    
-    
-    
- 
-                
-   
-   
-    
 
 numbers = []
 while True:

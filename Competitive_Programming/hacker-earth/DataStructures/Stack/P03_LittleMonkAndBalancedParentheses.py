@@ -1,27 +1,4 @@
                                                                                                                  
-                                                                                                           
- 
-                                                                                                                                                                                                                        
-                                                             
- 
-                                                                           
- 
-               
-                                                                                                                      
-                                                                         
- 
-                
-                                                            
- 
-              
-   
-             
- 
-               
-   
- 
-             
-                                                                                                  
 
 n = int(input().strip())
 lst = list(map(int,input().split()))

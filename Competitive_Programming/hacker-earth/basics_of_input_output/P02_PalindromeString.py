@@ -1,18 +1,4 @@
                                                                                                                             
-                                                     
- 
-              
- 
-                                                                                                                       
- 
-               
-                                             
- 
-             
-           
- 
-      
-                                                        
 
 userInput = input()
 if userInput == userInput[::-1]:

@@ -1,30 +1,4 @@
                                                                                                     
-                                                                       
- 
-               
-                                               
-                                                                              
- 
-                
-                                                           
- 
-              
- 
-          
-                                                  
-           
-         
- 
-              
-   
-           
-               
-            
- 
-               
-       
-           
-        
 
 for i in range(int(input())):
     user_input = input()

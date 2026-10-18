@@ -1,11 +1,5 @@
                      
 
-
-                                                                                                    
-
-                           
-                              
-
 from tkinter import *
 from tkinter.messagebox import showerror
 import pickle
@@ -60,18 +54,10 @@ class todoGUI(object):
             record = db[key]
                                     
         else:
-                                        
-                                                
-                                
+
             dbfile = open('examplePickle', 'ab')
             temp = {}
-                                    
-                                               
-                                                         
-             
-                         
-                                 
-                       
+
             del db[key]
             for field in self.fieldnames:
                 temp[field] = entries[field].get()

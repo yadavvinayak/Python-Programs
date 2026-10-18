@@ -1,5 +1,4 @@
                                                           
-                                              
 
 def factorial(number):
     '''This function finds the factorial of the number passed as argument'''

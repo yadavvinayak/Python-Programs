@@ -1,32 +1,4 @@
                      
- 
-                                                                                                                    
-                                                                                                                     
-                                                                                                                     
-                                                                                                                    
-                                                                                                                  
-                                                                 
- 
-              
- 
-                                                                                                                  
-                                                                            
- 
-               
- 
-                                               
- 
-                  
-        
-                                                                          
- 
-              
-   
-                     
-                     
- 
-               
-    
 
 n = int(input())
 vaccine = [int(i) for i in input().split()]

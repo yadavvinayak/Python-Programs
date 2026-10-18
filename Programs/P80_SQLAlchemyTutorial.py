@@ -1,7 +1,5 @@
                                                                                    
 
-                                                                        
-
 from sqlalchemy import (
     create_engine,
     Column,
@@ -13,11 +11,8 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import os
 
-
-                    
 engine = create_engine('sqlite:///example.db', echo=True)
 Base = declarative_base()
-
 
 class Student(Base):
     __tablename__ = "student"
@@ -34,11 +29,9 @@ class Student(Base):
         self.lastname = lastname
         self.university = university
 
-
 def create_tables():
                    
     Base.metadata.create_all(engine)
-
 
 if __name__ == '__main__':
     sqlite_file = 'example.db'
@@ -48,13 +41,10 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-                    
     user = Student('Vinayak', 'VinayakYadav', 'Yadav', 'MIT')
     session.add(user)
 
-                                    
     session.commit()
 
-                    
     for student in session.query(Student).order_by(Student.id):
         print (student.firstname, student.lastname)

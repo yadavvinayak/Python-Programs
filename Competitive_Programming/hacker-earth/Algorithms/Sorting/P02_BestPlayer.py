@@ -1,46 +1,5 @@
                      
 
-                                                                                                                    
-                                                                                                                  
- 
-                                                                                                                    
-                                                                                                                      
-                                                                                                                        
-                                                                                                                      
-                                                                                                                      
-                                                                                        
- 
-                                                                                                              
- 
-                
- 
-                                                                                                                  
-                                                                                                                      
-                                   
- 
-                 
- 
-                                                                                                                  
-                                                                                   
- 
-               
-            
-                   
-                   
- 
-                                                                                                       
- 
-              
-     
-          
-              
-          
- 
-               
-        
-        
-
-                         
 n, t = map(int, input().split())
 fans = []
 for _ in range(n):
@@ -61,7 +20,6 @@ for i in range(t):
   else:
     print(fans[i][0])
 
-                         
 n,m = map(int,input().split())
 s={}
 for i in range(n):

@@ -1,27 +1,4 @@
                                                                                                                         
-                                                                                                                      
-                                                                                                                      
-                                                                                                                       
-                                                                                                                       
-                                                                   
- 
-        
-                                                                                          
- 
-         
-                                                                                                                     
-          
- 
-              
-             
-              
- 
-              
-   
-           
- 
-               
-   
 
 check = int(input())
 array = input().split()
